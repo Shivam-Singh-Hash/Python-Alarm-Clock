@@ -1,24 +1,25 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Premium%20YT%20Downloader&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Lightning-fast%20%E2%80%A2%20Beautifully%20Designed%20%E2%80%A2%20100%25%20Local&descAlignY=56&descSize=17" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,24&height=200&section=header&text=Advanced%20Alarm%20Clock&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=35&desc=A%20feature-rich%20desktop%20alarm%20app%20built%20with%20Python%20%26%20Tkinter&descAlignY=58&descSize=17" width="100%"/>
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![yt-dlp](https://img.shields.io/badge/yt--dlp-Latest-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-Powered-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-Built--in-FF6F00?style=for-the-badge&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-Audio-00B140?style=for-the-badge&logo=python&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-Imaging-4F8EF7?style=for-the-badge&logo=python&logoColor=white)
+
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-informational?style=for-the-badge&logo=windows&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Linux-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![Stars](https://img.shields.io/github/stars/Shivam-Singh-Hash/youtube-downloader?style=for-the-badge&color=FFD700&logo=github&logoColor=white)
-![Forks](https://img.shields.io/github/forks/Shivam-Singh-Hash/youtube-downloader?style=for-the-badge&color=20B2AA&logo=github&logoColor=white)
+![Stars](https://img.shields.io/github/stars/Shivam-Singh-Hash/advanced-alarm-clock?style=for-the-badge&color=gold&logo=github)
 
 <br/>
 
-**⚡ No watermarks &nbsp;·&nbsp; 🔒 Fully local &nbsp;·&nbsp; 🎵 MP3 & MP4 &nbsp;·&nbsp; 🎨 Glassmorphism UI &nbsp;·&nbsp; 📊 Live Progress**
+**⏰ Real-time Clock · 🔔 Multi-Alarm · 🔁 Repeat Scheduling · 🎵 Audio Alerts**
 
 <br/>
 
-[🚀 Get Started](#-installation-guide) &nbsp;·&nbsp; [✨ Features](#-features) &nbsp;·&nbsp; [🏗️ Architecture](#️-architecture) &nbsp;·&nbsp; [📸 Screenshots](#-screenshots) &nbsp;·&nbsp; [🗺️ Roadmap](#-future-improvements)
+[🚀 Quick Start](#-installation) &nbsp;·&nbsp; [✨ Features](#-features) &nbsp;·&nbsp; [📸 Screenshots](#-screenshots) &nbsp;·&nbsp; [🗺️ Roadmap](#-roadmap) &nbsp;·&nbsp; [🤝 Contribute](#-contributing)
 
 <br/>
 
@@ -26,36 +27,11 @@
 
 ---
 
-## 📖 Project Overview
+## 📖 Overview
 
-The **Premium YouTube Downloader** is a modern, responsive web application that lets you download your favourite YouTube videos and extract high-quality audio — all from a stunning glassmorphism interface running entirely on your local machine.
+**Advanced Alarm Clock** is a fully-featured desktop application built entirely in Python. It combines a live digital clock, a multi-alarm scheduler with day-of-week repeat options, and audio alerts — all wrapped in a clean, native GUI powered by Tkinter. Whether you need a daily wake-up call or a weekly reminder, this app has you covered with zero external cloud dependencies.
 
-Built with vanilla HTML, CSS, and JavaScript on the frontend and powered by `yt-dlp` + FFmpeg on the backend, this tool delivers a seamless, ad-free experience with zero watermarks, zero sign-ups, and zero limits.
-
----
-
-## 🎬 Demo
-
-<div align="center">
-
-<!--
-  ┌─────────────────────────────────────────────────────────┐
-  │  📸  ADD YOUR DEMO GIF HERE                             │
-  │─────────────────────────────────────────────────────────│
-  │  1. Record screen with ScreenToGif (free, Windows)      │
-  │     → https://www.screentogif.com/                      │
-  │  2. Save as  screenshots/demo.gif                       │
-  │  3. The img tag below will show it automatically ✅      │
-  └─────────────────────────────────────────────────────────┘
--->
-
-<img src="./screenshots/demo.gif" width="80%" alt="Demo GIF — Coming Soon"/>
-
-<br/><br/>
-
-> 🎯 **Paste a URL → Analyze → Choose Format → Download.** That's it.
-
-</div>
+> 💡 Built for developers who want a lightweight, fully customizable alarm system they can run and modify locally.
 
 ---
 
@@ -63,57 +39,92 @@ Built with vanilla HTML, CSS, and JavaScript on the frontend and powered by `yt-
 
 <div align="center">
 
-| | Feature | Description |
-|---|---------|-------------|
-| 🎬 | **MP4 Video Download** | High-quality video with audio, auto-merged by FFmpeg |
-| 🎵 | **MP3 Audio Extraction** | Crystal-clear audio extracted from any YouTube video |
-| ⚡ | **yt-dlp Engine** | Industry-standard downloader — fast, reliable, always up to date |
-| 🔧 | **FFmpeg Merging** | Seamlessly merges high-res video + audio streams automatically |
-| 🎨 | **Glassmorphism UI** | Stunning animated dark UI with particles and a custom cursor |
-| 📊 | **Live Progress Bar** | Real-time download progress via Server-Sent Events |
-| 🖥️ | **100% Local** | Runs entirely on your machine — no cloud, no tracking, no data collection |
-| 📱 | **Responsive Design** | Works flawlessly on desktop and mobile screens |
+| Feature | Description |
+|--------|-------------|
+| ⏰ **Live Digital Clock** | Real-time clock updating every second in a bold, readable display |
+| ➕ **Multiple Alarms** | Add as many alarms as you need — all tracked in a clean table view |
+| 🔁 **Repeat Scheduling** | Set alarms to ring Every Day or on a specific day of the week |
+| 🎵 **Audio Alert** | Plays an MP3 alarm sound via Pygame mixer when triggered |
+| 🖼️ **Clock Image** | Displays a clock image for a visual, polished look |
+| 📋 **Alarm List View** | All active alarms shown in a Treeview table — Time + Repeat |
+| 🔔 **Pop-up Notification** | A messagebox pops up when any alarm fires |
+| 🌐 **Auto-download Assets** | Automatically fetches the clock image and sound if missing |
+| 🧵 **Background Threading** | Alarm checking runs in a daemon thread — UI stays perfectly responsive |
 
 </div>
 
 ---
 
-## 🏗️ Architecture
+## 📸 Screenshots
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://placehold.co/380x240/1a1a2e/e94560?text=⏰+Main+Clock+View&font=montserrat" width="360" alt="Main Clock View"/>
+      <br/><sub><b>Live Digital Clock + Clock Image</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://placehold.co/380x240/1a1a2e/f5a623?text=➕+Add+Alarm+Form&font=montserrat" width="360" alt="Alarm Form"/>
+      <br/><sub><b>Alarm Scheduler — Hour / Min / Sec / Repeat</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://placehold.co/380x240/1a1a2e/00b140?text=📋+Alarm+List+View&font=montserrat" width="360" alt="Alarm List"/>
+      <br/><sub><b>Active Alarms in Treeview Table</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://placehold.co/380x240/1a1a2e/4f8ef7?text=🔔+Alarm+Ringing!&font=montserrat" width="360" alt="Alarm Triggered"/>
+      <br/><sub><b>Popup Notification + Audio Alert</b></sub>
+    </td>
+  </tr>
+</table>
+
+> 📷 Replace placeholders above with real screenshots from your app!
+
+</div>
+
+---
+
+## 🏗️ How It Works
 
 ```
-┌──────────────────────────────────────────────────┐
-│                      USER                        │
-│          Pastes YouTube URL in Browser           │
-└─────────────────────┬────────────────────────────┘
-                      │  Browser Request
-                      ▼
-┌──────────────────────────────────────────────────┐
-│        FRONTEND  (HTML5 / CSS3 / JavaScript)     │
-│  • Glassmorphism UI       • Particle Canvas      │
-│  • Live Progress Bar      • Format Selector      │
-└─────────────────────┬────────────────────────────┘
-                      │  fetch() → /api/download
-                      ▼
-┌──────────────────────────────────────────────────┐
-│            PYTHON BACKEND  (app.py)              │
-│  • HTTP routing           • SSE streaming        │
-│  • Error handling         • File serving         │
-└─────────────────────┬────────────────────────────┘
-                      │  subprocess call
-                      ▼
-┌──────────────────────────────────────────────────┐
-│                   yt-dlp                         │
-│     Fetches best video & audio streams           │
-└─────────────────────┬────────────────────────────┘
-                      │  pipes to
-                      ▼
-┌──────────────────────────────────────────────────┐
-│                   FFmpeg                         │
-│     Merges streams → final MP4 or MP3 file       │
-└─────────────────────┬────────────────────────────┘
-                      │
-                      ▼
-            📁  downloads/your-video.mp4
+┌──────────────────────────────────────────────────────┐
+│                  TKINTER GUI (Main Thread)            │
+│                                                      │
+│   ┌─────────────┐   ┌──────────────────────────┐    │
+│   │  Live Clock │   │      Alarm Form          │    │
+│   │  (Label)    │   │  Hour / Min / Sec /      │    │
+│   │  Updates    │   │  AM-PM / Repeat Day      │    │
+│   │  every 1s   │   │  → Add Alarm Button      │    │
+│   └─────────────┘   └──────────────────────────┘    │
+│                                                      │
+│         ┌─────────────────────────────┐             │
+│         │    Alarm Treeview Table     │             │
+│         │  Time         │  Repeat     │             │
+│         │  08:00:00 AM  │  Every Day  │             │
+│         │  09:30:00 AM  │  Monday     │             │
+│         └─────────────────────────────┘             │
+└──────────────────────────┬───────────────────────────┘
+                           │
+                  (daemon Thread)
+                           │
+                           ▼
+┌──────────────────────────────────────────────────────┐
+│              ALARM CHECKER (Background Thread)        │
+│                                                      │
+│   Runs every second → compares current time          │
+│   against all alarms in list                         │
+│                                                      │
+│   Match found?                                       │
+│       ↓                                              │
+│   ┌───────────────────────────────────┐             │
+│   │  Pygame Mixer → plays alarm.mp3   │             │
+│   │  Tkinter Messagebox → popup alert │             │
+│   └───────────────────────────────────┘             │
+└──────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -122,220 +133,163 @@ Built with vanilla HTML, CSS, and JavaScript on the frontend and powered by `yt-
 
 <div align="center">
 
-### 🎨 Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3%20%28Glassmorphism%29-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript%20%28Vanilla%29-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### ⚙️ Backend
+### Core GUI
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-Built--in-FF6F00?style=for-the-badge&logo=python&logoColor=white)
 
-### 🔧 Tools
-![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+### Audio & Image
+![Pygame](https://img.shields.io/badge/Pygame-Mixer-00B140?style=for-the-badge&logo=python&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-PIL-4F8EF7?style=for-the-badge&logo=python&logoColor=white)
+
+### Networking (asset fetch)
+![Requests](https://img.shields.io/badge/Requests-HTTP-FF4444?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-📦 youtube-downloader/
+📦 advanced-alarm-clock/
 │
-├── 🐍 app.py           ← Python backend — server, API endpoints, subprocess
-├── 🌐 index.html       ← Main UI structure of the web application
-├── 🎨 style.css        ← Premium styling, glassmorphism & animations
-├── ⚡ script.js        ← Interactive frontend logic & API communication
-└── 📄 README.md        ← Project documentation
+├── 🐍 alarm_clock.py        ← Main application (all logic + GUI)
+├── 🔔 alarm.mp3             ← Alarm sound (auto-downloaded if missing)
+├── 🖼️  clock.png             ← Clock icon (auto-downloaded if missing)
+└── 📄 README.md
 ```
+
+> ✅ **No complex folder structure needed** — everything runs from a single Python file.
 
 ---
 
-## 🚀 Installation Guide
+## 🚀 Installation
 
 ### Prerequisites
 
-Make sure the following are installed on your machine:
-
-| Tool | Version | Install |
-|------|---------|---------|
-| Python | 3.x+ | [python.org](https://python.org) |
-| yt-dlp | Latest | `pip install yt-dlp` |
-| FFmpeg | Any | See below |
-
-### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/Shivam-Singh-Hash/youtube-downloader.git
-cd youtube-downloader
+# Check Python version (3.8+ required)
+python --version
 ```
 
-### 2️⃣ Install Python Dependencies
-```bash
-pip install yt-dlp
-```
-
-### 3️⃣ Install FFmpeg
-
-<details>
-<summary><b>🪟 Windows</b></summary>
-
-```powershell
-winget install ffmpeg
-```
-Or download from [ffmpeg.org](https://ffmpeg.org/download.html), extract, and add the `bin/` folder to your system PATH.
-</details>
-
-<details>
-<summary><b>🍎 macOS</b></summary>
+### Step 1 — Clone the repository
 
 ```bash
-brew install ffmpeg
+git clone https://github.com/Shivam-Singh-Hash/advanced-alarm-clock.git
+cd advanced-alarm-clock
 ```
-</details>
 
-<details>
-<summary><b>🐧 Linux</b></summary>
+### Step 2 — Install dependencies
 
 ```bash
-sudo apt install ffmpeg
+pip install pillow pygame requests
 ```
-</details>
 
-### 4️⃣ Run the Application
+> Tkinter comes **built into Python** — no separate install needed.
+
+### Step 3 — Run the app
+
 ```bash
-python app.py
+python alarm_clock.py
 ```
 
-### 5️⃣ Open Your Browser
-```
-http://127.0.0.1:5000
-```
-
-> ✅ No `.env` files. No Docker. No complicated config. Just run and go.
+> 🎵 The app will **automatically download** `alarm.mp3` and `clock.png` on first run if they're missing.
 
 ---
 
 ## 💻 Usage
 
-```
-Step 1 →  Copy the URL of any YouTube video or Short
-Step 2 →  Paste it into the input field on the homepage
-Step 3 →  Click Analyze to fetch video details & thumbnail
-Step 4 →  Select your format: MP4 (video) or MP3 (audio)
-Step 5 →  Click DOWNLOAD NOW and watch the live progress bar
-Step 6 →  File is saved automatically ✅
-```
+**Step 1** — Launch the app with `python alarm_clock.py`
+
+**Step 2** — Look at the live clock at the top to confirm current time
+
+**Step 3** — Use the dropdown menus to set:
+  - **Hour** (01–12)
+  - **Minute** (00–59)
+  - **Second** (00–59)
+  - **AM / PM**
+  - **Repeat** — Every Day, or a specific weekday
+
+**Step 4** — Click **Add Alarm** — it appears in the alarm list instantly
+
+**Step 5** — When the time matches, the alarm plays audio and shows a popup 🔔
+
+**Step 6** — Add as many alarms as you need — they all run simultaneously in the background
 
 ---
 
-## 📸 Screenshots
-
-<!--
-  ┌─────────────────────────────────────────────────────────────────┐
-  │  📁  HOW TO ADD YOUR SCREENSHOTS                                │
-  │─────────────────────────────────────────────────────────────────│
-  │  1. Create a  screenshots/  folder in your project root         │
-  │  2. Take screenshots of your app (Win: Win + Shift + S)         │
-  │  3. Save them with these exact names:                           │
-  │       screenshots/home.png        ← Homepage UI                 │
-  │       screenshots/downloading.png ← Progress bar screen         │
-  │       screenshots/success.png     ← Success/done screen         │
-  │       screenshots/mobile.png      ← Mobile view (optional)      │
-  │  4. Push to GitHub — they'll appear here automatically ✅       │
-  └─────────────────────────────────────────────────────────────────┘
--->
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="./screenshots/home.png" width="380" alt="Homepage UI"/>
-      <br/><sub><b>🏠 Homepage — Glassmorphism UI</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshots/downloading.png" width="380" alt="Download Progress"/>
-      <br/><sub><b>📊 Live Download Progress</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="./screenshots/success.png" width="380" alt="Successful Download"/>
-      <br/><sub><b>✅ Successful Download 🎉</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshots/mobile.png" width="380" alt="Mobile View"/>
-      <br/><sub><b>📱 Responsive Mobile Design</b></sub>
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-## 🔮 Future Improvements
+## 🗺️ Roadmap
 
 ```
-✅  v1.0  —  MP4 video download
-✅  v1.0  —  MP3 audio extraction
-✅  v1.0  —  Live progress bar
-✅  v1.0  —  Glassmorphism UI with animations
+✅  v1.0  — Live digital clock (updates every second)
+✅  v1.0  — Add / display multiple alarms
+✅  v1.0  — Repeat by day of week
+✅  v1.0  — MP3 audio alert via Pygame
+✅  v1.0  — Popup notification on alarm trigger
+✅  v1.0  — Auto-download missing assets
 ```
 
 ```
-🔜  v1.1  —  Full playlist download support
-🔜  v1.1  —  Dark / Light mode toggle
-🔜  v1.2  —  User download history tracking
-🔜  v1.2  —  Subtitle / caption download (.srt / .vtt)
-🔜  v1.3  —  Explicit quality selector (1080p / 720p / 480p)
-🔜  v2.0  —  Desktop app (Electron / Tauri)
+🔜  v1.1  — Delete / disable individual alarms from the list
+🔜  v1.1  — Snooze button (5 / 10 min options)
+🔜  v1.2  — Custom alarm label / name per alarm
+🔜  v1.2  — Volume control slider
+🔜  v1.3  — Custom ringtone — browse & upload your own MP3
+🔜  v1.3  — Dark / Light mode toggle
+🔜  v2.0  — Save alarms to a file (persist after app restarts)
+🔜  v2.0  — System tray icon — minimize to tray, alarms keep running
+🔜  v2.0  — Countdown timer mode
 ```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions make the open-source world go round. All contributions are **greatly appreciated**! 🙏
+Contributions make open-source amazing — all PRs are welcome! 🙌
 
 ```bash
-# 1. Fork the repository
-# 2. Create your feature branch
-git checkout -b feature/AmazingFeature
+# 1. Fork the project on GitHub
 
-# 3. Commit your changes
-git commit -m "feat: add AmazingFeature"
+# 2. Clone your fork
+git clone https://github.com/YOUR_USERNAME/advanced-alarm-clock.git
 
-# 4. Push to your branch
-git push origin feature/AmazingFeature
+# 3. Create a feature branch
+git checkout -b feature/SnoozeButton
 
-# 5. Open a Pull Request 🚀
+# 4. Make your changes and commit
+git commit -m "Add snooze button with 5-min delay"
+
+# 5. Push to your fork
+git push origin feature/SnoozeButton
+
+# 6. Open a Pull Request on GitHub
 ```
 
-**Guidelines:**
+### Contribution Guidelines
 - Keep code clean and well-commented
-- Test on Windows before submitting a PR
-- One feature per pull request
-- Update the README if your feature changes usage
+- Test on Windows before submitting
+- One feature or fix per PR
+- Update the README if your change affects usage
+
+---
+
+## ⚠️ Notes
+
+- The app uses a **local image path** by default (`C:\Users\shiva\AlarmItems\...`) — update line 28 in `alarm_clock.py` to your own path, or place `clock.png` in the same folder and it will use that automatically.
+- Audio playback requires `pygame` and a working audio output device.
+- The alarm checker runs in a **background thread** and stops automatically when the app is closed.
 
 ---
 
 ## ⭐ Support
 
-If this project saved you time or you just think it's cool — drop a ⭐ star! It helps more people discover it.
+If this project was useful or fun, please drop a star — it genuinely helps! 🙏
 
 <div align="center">
 
-[![Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-It%20really%20helps!-FFD700?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shivam-Singh-Hash/youtube-downloader)
+[![Star this repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-It%20means%20a%20lot!-gold?style=for-the-badge)](https://github.com/Shivam-Singh-Hash/advanced-alarm-clock)
 
 </div>
-
----
-
-## ⚠️ Disclaimer
-
-This tool is intended for **personal, educational use only**. Please respect YouTube's [Terms of Service](https://www.youtube.com/t/terms). Only download content that you own or have the right to download. The author takes no responsibility for misuse.
 
 ---
 
@@ -343,22 +297,19 @@ This tool is intended for **personal, educational use only**. Please respect You
 
 <div align="center">
 
-<img src="https://github.com/Shivam-Singh-Hash.png" width="110" style="border-radius:50%" alt="Shivam Singh" onerror="this.src='https://placehold.co/110x110/04040a/ff2d55?text=SS'"/>
-
 ### **Shivam Singh**
+
 *Building cool things, one commit at a time.*
 
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-Shivam--Singh--Hash-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shivam-Singh-Hash)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-contactshivamsingh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/contactshivamsingh/)
-[![Instagram](https://img.shields.io/badge/Instagram-theshivamsinghrathore-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/theshivamsinghrathore/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shivam-Singh-Hash)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/contactshivamsingh/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/theshivamsinghrathore/)
 
 </div>
 
 ---
 
-## 📝 License
+## 📄 License
 
 ```
 MIT License  —  Copyright (c) 2025 Shivam Singh
@@ -373,19 +324,15 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 ```
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=130&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,24&height=120&section=footer" width="100%"/>
 
 **Made with ❤️ by [Shivam Singh](https://github.com/Shivam-Singh-Hash)**
-
-*If you found this helpful, please consider giving it a ⭐*
 
 </div>
